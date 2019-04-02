@@ -17,6 +17,17 @@ fieldset {
         color: darkslategray;
         font-size: 30px;
     }
+    principio-de-los-datos {
+        display: inline
+        color: blue;
+        font-size: 30px;
+    }
+    datos-del-tia {
+        display: inline
+        color: darkslategray;
+        font-size: 30px;
+    }
+
 </style>
 <body>
     <!-- ENCABEZADO -->
@@ -82,11 +93,76 @@ fieldset {
                <label for="tarjeta-de-credito">Tarjeta de Credito</label>
                <input type="number" placeholder="N° de Tarjeta"/>
                <br>
-
             </fieldset>
         </form>
-          <!-- FIN DE CONTENIDO -->
+         
       </ul>
   </nav>
+   <!-- FIN DE CONTENIDO -->
+            <!-- SEGUNDO FORMULARIO -->
+            <form>
+            <fieldset>
+                <legend>
+                  <Principio-de-los-datos>Datos de su mascota</Principio-de-los-datos>
+                                 </legend>
+                  <label for="Nombre">Nombre</label>
+                  <input type="text" placeholder="Pupi"/>
+                  <br>
+                <label for="fecha-de-nacimiento">Fecha de Nacimiento</label>
+                <input type="date" placeholder="Fecha de nacimiento"/>
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" placeholder="2 años"/>
+                <br>
+                <label for="Raza">Raza</label>
+                <input type="text" placeholder="Callejero"/>
+                <br>
+                <label for="Tamaño">Tamaño</label>
+                <br>
+                <input type="checkbox" name="Chico" value="Chico"> Chico
+                <br>
+                <input type="checkbox" name="Mediano" value="Mediano"> Mediano 
+                <br>
+                <input type="checkbox" name="Grande" value="Grande"> Grande
+                <br>
+                Foto de tu Mascota: <input type="file" name="myFile">
+            </fieldset>
+            </form>
+            <!-- FIN DEL SEGUNDO FORMULARIO -->
+<!-- TERCER FORMULARIO -->
+<form>
+    <fieldset>
+        <legend>
+                  <Datos-del-tia>Datos de su tía</Datos-del-tia>
+                                 </legend>
+                  <label for="Nombre">Apodo</label>
+                  <input type="text" placeholder="Tia Chola"/>
+                  <br>
+                <label for="fecha-de-nacimiento">Fecha de Nacimiento</label>
+                <input type="date" placeholder="Fecha de nacimiento"/>
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" placeholder="Años"/>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email"/>
+                <br>
+                <label for="Numero de Telefono">Número de teléfono</label>
+                <input type="number" placeholder="N° de Tel"/>
+                <br>
+                <label for="dni">DNI</label>
+                <input type="number" placeholder="DNI"/>
+                <br>
+                Foto de su tía: <input type="file" name="myFile">
+               
+
+
+    </fieldset>
+</form>
+<!-- FIN DEL TERCER FORMULARIO -->
+            
+     
+          <!-- FIN DE CONTENIDO -->
+    
 </body>
 </html>
